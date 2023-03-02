@@ -43,10 +43,7 @@ const BlogDetails = () => {
                 </div>
 
                 <p className="section__description">{blog.description}</p>
-                <h6 className="ps-5 fw-normal">
-                  <blockquote className="fs-4">{blog.quote}</blockquote>
-                </h6>
-                <p className="section__description">{blog.description}</p>
+                <h6 className="ps-5 fw-normal"/>
               </div>
 
               <div className="comment__list mt-5">
@@ -58,13 +55,11 @@ const BlogDetails = () => {
                     <h6 className=" fw-bold">David Visa</h6>
                     <p className="section__description mb-0">14 July, 2022</p>
                     <p className="section__description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos nobis totam eius laborum molestias itaque minima
-                      distinctio, quae velit tempore!
+                      Dirt Evolution has provided me with the best service and ontop of that they provide tips on how to maintain my bike so that it can last to its fullest. Thank you for the service Marius
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
-                      <i class="ri-reply-line"></i> Replay
+                      <i class="ri-reply-line"></i> Reply
                     </span>
                   </div>
                 </div>

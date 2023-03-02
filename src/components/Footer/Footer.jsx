@@ -11,12 +11,12 @@ const quickLinks = [
   },
 
   {
-    path: "#",
+    path: "/about",
     display: "Privacy Policy",
   },
 
   {
-    path: "/cars",
+    path: "/motorbikes",
     display: "Motorbike List",
   },
   {

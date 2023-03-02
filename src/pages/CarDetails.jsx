@@ -113,13 +113,16 @@ const CarDetails = () => {
                 <BookingForm />
               </div>
             </Col>
+            <div className="payment text-end mt-5">
+              <button>Reserve Now</button>
+        </div>
 
-            <Col lg="5" className="mt-5">
+            {/* <Col lg="5" className="mt-5">
               <div className="payment__info mt-5">
                 <h5 className="mb-4 fw-bold ">Payment Information</h5>
                 <PaymentMethod />
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </section>

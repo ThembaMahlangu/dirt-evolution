@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
-import aboutImg from "../../assets/all-images/cars-img/bmw-offer.png";
 
 const AboutSection = ({ aboutClass }) => {
   return (
@@ -49,7 +48,7 @@ const AboutSection = ({ aboutClass }) => {
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="image about dirt evolution in Middelburg" className="w-100" />
+              <img src={"https://suttos.com.au/storage/temp/public/e79/da9/f3c/thumb__1440_675_0_0_crop__1440.jpg"} alt="image about dirt evolution in Middelburg" className="w-100" />
             </div>
           </Col>
         </Row>

@@ -7,7 +7,7 @@ import "../../styles/payment-method.css";
 const PaymentMethod = () => {
   return (
     <>
-      <div className="payment">
+      {/* <div className="payment">
         <label htmlFor="" className="d-flex align-items-center gap-2">
           <input type="radio" /> Direct Bank Transfer
         </label>
@@ -33,10 +33,10 @@ const PaymentMethod = () => {
         </label>
 
         <img src={paypal} alt="" />
-      </div>
-      <div className="payment text-end mt-5">
+      </div> */}
+      {/* <div className="payment text-end mt-5">
         <button>Reserve Now</button>
-      </div>
+      </div> */}
     </>
   );
 };
