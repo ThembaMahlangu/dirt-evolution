@@ -1,7 +1,7 @@
 import React from "react";
 
-import masterCard from "../../assets/all-images/master-card.jpg";
-import paypal from "../../assets/all-images/paypal.jpg";
+// import masterCard from "../../assets/all-images/master-card.jpg";
+// import paypal from "../../assets/all-images/paypal.jpg";
 import "../../styles/payment-method.css";
 
 const PaymentMethod = () => {
@@ -34,9 +34,9 @@ const PaymentMethod = () => {
 
         <img src={paypal} alt="" />
       </div> */}
-      {/* <div className="payment text-end mt-5">
+      <div className="payment text-end mt-5">
         <button>Reserve Now</button>
-      </div> */}
+      </div>
     </>
   );
 };

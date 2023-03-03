@@ -49,7 +49,7 @@ const Testimonial = () => {
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
+          <img src={ava01} alt="avatar image" className="w-25 h-25 rounded-2" />
 
           <div>
             <h6 className="mb-0 mt-3">Jhon Doe</h6>
@@ -67,7 +67,7 @@ const Testimonial = () => {
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
+          <img src={ava02} alt="image of avart" className="w-25 h-25 rounded-2" />
 
           <div>
             <h6 className="mb-0 mt-3">Jhon Doe</h6>
@@ -85,7 +85,7 @@ const Testimonial = () => {
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
+          <img src={ava03} alt="avatar 3" className="w-25 h-25 rounded-2" />
 
           <div>
             <h6 className="mb-0 mt-3">Jhon Doe</h6>
@@ -103,7 +103,7 @@ const Testimonial = () => {
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
+          <img src={ava04} alt="avatar 4" className="w-25 h-25 rounded-2" />
 
           <div>
             <h6 className="mb-0 mt-3">Jhon Doe</h6>

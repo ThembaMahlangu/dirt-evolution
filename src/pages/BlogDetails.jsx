@@ -25,7 +25,7 @@ const BlogDetails = () => {
           <Row>
             <Col lg="8" md="8">
               <div className="blog__details">
-                <img src={blog.imgUrl} alt="" className="w-100" />
+                <img src={blog.imgUrl} alt="blog pic" className="w-100" />
                 <h2 className="section__title mt-4">{blog.title}</h2>
 
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
@@ -50,7 +50,7 @@ const BlogDetails = () => {
                 <h4 className="mb-5">3 Comments</h4>
 
                 <div className="single__comment d-flex gap-3">
-                  <img src={commentImg} alt="" />
+                  <img src={commentImg} alt="comment pic" />
                   <div className="comment__content">
                     <h6 className=" fw-bold">David Visa</h6>
                     <p className="section__description mb-0">14 July, 2022</p>
@@ -100,7 +100,7 @@ const BlogDetails = () => {
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>
                   <div className="recent__blog-item d-flex gap-3">
-                    <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
+                    <img src={item.imgUrl} alt="blog post" className="w-25 rounded-2" />
                     <h6>
                       <Link to={`/blogs/${item.title}`}>{blog.title}</Link>
                     </h6>

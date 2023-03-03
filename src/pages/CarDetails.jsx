@@ -22,7 +22,7 @@ const CarDetails = () => {
         <Container>
           <Row>
             <Col lg="6">
-              <img src={singleCarItem.imgUrl} alt="" className="w-100" />
+              <img src={singleCarItem.imgUrl} alt="single bike" className="w-100" />
             </Col>
 
             <Col lg="6">
@@ -113,16 +113,12 @@ const CarDetails = () => {
                 <BookingForm />
               </div>
             </Col>
-            <div className="payment text-end mt-5">
-              <button>Reserve Now</button>
-        </div>
 
-            {/* <Col lg="5" className="mt-5">
+            <Col lg="5" className="mt-5">
               <div className="payment__info mt-5">
-                <h5 className="mb-4 fw-bold ">Payment Information</h5>
                 <PaymentMethod />
               </div>
-            </Col> */}
+            </Col>
           </Row>
         </Container>
       </section>

@@ -2,15 +2,13 @@ import React from "react";
 import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
 
-import driverImg from "../../assets/all-images/toyota-offer-2.png";
-
 const BecomeDriverSection = () => {
   return (
     <section className="become__driver">
       <Container>
         <Row>
           <Col lg="6" md="6" sm="12" className="become__driver-img">
-            <img src={"https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/4/9/si9rqvzrczioeq1urrqt/dirt-bike-unchained-interview"} alt="" className="w-100" />
+            <img src={"https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/4/9/si9rqvzrczioeq1urrqt/dirt-bike-unchained-interview"} alt="dirt bike unchained" className="w-100" />
           </Col>
 
           <Col lg="6" md="6" sm="12">

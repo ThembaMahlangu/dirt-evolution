@@ -19,7 +19,7 @@ const About = () => {
           <Row>
             <Col lg="6" md="6" sm="12">
               <div className="about__page-img">
-                <img src={"https://img.autotrader.co.za/13282250/Crop640x480"} alt="" className="w-100 rounded-3" />
+                <img src={"https://img.autotrader.co.za/13282250/Crop640x480"} alt="about image" className="w-100 rounded-3" />
               </div>
             </Col>
 
