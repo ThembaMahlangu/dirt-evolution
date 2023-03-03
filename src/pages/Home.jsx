@@ -4,7 +4,7 @@ import HeroSlider from "../components/UI/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
 
 import { Container, Row, Col } from "reactstrap";
-// import FindCarForm from "../components/UI/FindCarForm";
+import FindCarForm from "../components/UI/FindCarForm";
 import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
 import carData from "../assets/data/carData";
@@ -21,12 +21,12 @@ const Home = () => {
       <section className="p-0 hero__slider-section">
         <HeroSlider />
 
-        {/* <div className="hero__form">
+        <div className="hero__form">
           <Container>
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h2>Find your best bike here</h2>
                 </div>
               </Col>
 
@@ -35,7 +35,7 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
-        </div> */}
+        </div>
       </section>
       {/* =========== about section ================ */}
       <AboutSection />

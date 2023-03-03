@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const BecomeDriverSection = () => {
   return (
@@ -16,8 +17,8 @@ const BecomeDriverSection = () => {
               Ready to Purchase your motorbike?
             </h2>
 
-            <button className="btn become__driver-btn mt-4">
-              Listings
+            <button  className="btn become__driver-btn mt-4">
+             <Link to="/motorbikes" style={{textDecoration: 'none', color: "inherit"}}>Listings</Link>
             </button>
           </Col>
         </Row>

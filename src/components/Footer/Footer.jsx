@@ -70,7 +70,7 @@ const Footer = () => {
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Workshop & Office</h5>
               <p className="office__info">1 Rivier St, Middelburg, 1055</p>
-              <p className="office__info">Phone: +2782 063 7895</p>
+              <p className="office__info">Phone: 082 063 7895</p>
 
               <p className="office__info">Email: dirtevolution@gmail.com</p>
 
