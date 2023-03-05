@@ -48,7 +48,7 @@ const AboutSection = ({ aboutClass }) => {
 
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={"https://suttos.com.au/storage/temp/public/e79/da9/f3c/thumb__1440_675_0_0_crop__1440.jpg"} alt="image about dirt evolution in Middelburg" className="w-100" />
+              <img src={"https://scontent.fjnb11-1.fna.fbcdn.net/v/t39.30808-6/325387180_937443600960774_3847204106316673637_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFgafV7JeHffqL2WEWQlKc1B03Rw0V-d30HTdHDRX53fR0-IWIzEWHUkTq4h2mJ4-fb66ukWQw3Jknmovv7g9SO&_nc_ohc=l-svK5mx71UAX-3WtUL&_nc_oc=AQkctd5a8ZodyVpeA8NFDbl5vZTgZGMimoCvIZy0cWsiwucPcWPQti2ZAN3_PxC-thY&_nc_ht=scontent.fjnb11-1.fna&oh=00_AfBZp_iYLzUFh1nGQKolleEQh7hEtAz_04gNeRP84utAHg&oe=64095929"} alt="image about dirt evolution in Middelburg" className="w-100" />
             </div>
           </Col>
         </Row>
