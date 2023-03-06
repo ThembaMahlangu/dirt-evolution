@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/all-images/logoo.png";
 
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";
+import emailjs from "@emailjs/browser";
 
 const quickLinks = [
   {
@@ -32,6 +33,37 @@ const quickLinks = [
 ];
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSubmitting(true);
+
+    emailjs
+    .sendForm(
+      "service_mk5j6fc",
+      "template_f22dv6u",
+      e.target,
+      "alhwLOSp2yLNOem4D"
+    )
+    .then(
+      (result) => {
+        console.log(result.text);
+        e.target.reset();
+        setSubmitting(false);
+      },
+      (error) => {
+        console.log(error.text);
+        setSubmitting(false);
+      }
+    );
+  };
+  
   const date = new Date();
   const year = date.getFullYear();
   return (
@@ -82,12 +114,13 @@ const Footer = () => {
               <p className="section__description">Subscribe our newsletter</p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
-                <span>
+                <span onClick={() => { alert('Subscribed To Newsletter!') }}>
                   <i class="ri-send-plane-line"></i>
                 </span>
               </div>
             </div>
           </Col>
+
 
           <Col lg="12">
             <div className="footer__bottom">
