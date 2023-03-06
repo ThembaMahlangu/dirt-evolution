@@ -8,7 +8,7 @@ import "../styles/contact.css";
 
 const socialLinks = [
   {
-    url: "#",
+    url: "https://www.facebook.com/@Dirt-Evolution-100064337222463/",
     icon: "ri-facebook-line",
   },
   {
@@ -82,13 +82,13 @@ const Contact = () => {
 
                 <div className=" d-flex align-items-center gap-4 mt-3">
                   {socialLinks.map((item, index) => (
-                    <Link
-                      to={item.url}
+                    <a
+                      href={item.url}
                       key={index}
                       className="social__link-icon"
                     >
                       <i class={item.icon}></i>
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>

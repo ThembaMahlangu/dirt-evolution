@@ -19,9 +19,7 @@ const AboutSection = ({ aboutClass }) => {
               <h4 className="section__subtitle">About Us</h4>
               <h2 className="section__title">Welcome to Dirt Evolution</h2>
               <p className="section__description">
-              For the past 4 years we have been commited to providing
-                  the best motorbike service and we strive to meet our client's needs.
-                  We have a backround of great repairs and excellent service in our bike sales.
+              We at Dirt Evolution have been commited for the past 4 years to providing reliable services at reliable prices to meet our client's needs. Our values lie under good service, experienced staff and quick turn around times.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
@@ -36,11 +34,11 @@ const AboutSection = ({ aboutClass }) => {
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Collections and Delivery
+                  <i class="ri-checkbox-circle-line"></i> Repairs/Service Collection
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Bikes and Boats
+                  <i class="ri-checkbox-circle-line"></i> Bikes/ATV/UTV
                 </p>
               </div>
             </div>

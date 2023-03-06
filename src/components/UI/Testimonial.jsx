@@ -3,10 +3,7 @@ import Slider from "react-slick";
 
 import "../../styles/testimonial.css";
 
-import ava01 from "../../assets/all-images/ava-1.jpg";
-import ava02 from "../../assets/all-images/ava-2.jpg";
-import ava03 from "../../assets/all-images/ava-3.jpg";
-import ava04 from "../../assets/all-images/ava-4.jpg";
+import ava01 from "../../assets/all-images/ava.png";
 
 const Testimonial = () => {
   const settings = {
@@ -42,17 +39,14 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          Thank you Maurius for the excellent service. I was very impressed with the way you handled the job. I will definitely be using you again and recommending you to my friends.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava01} alt="avatar image" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">G Putter</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
@@ -60,17 +54,14 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          Maurius was very professional and did a great job. He was very helpful and I would definitely recommend him to anyone.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava02} alt="image of avart" className="w-25 h-25 rounded-2" />
+          <img src={ava01} alt="image of avart" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Herman Dippenaar</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
@@ -78,17 +69,14 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+          I cannot imagine a better service than what Maurius provided. He was very professional and did a great job. I would definitely recommend him to anyone.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava03} alt="avatar 3" className="w-25 h-25 rounded-2" />
+          <img src={ava01} alt="avatar 3" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Jaundre Bester</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
@@ -96,17 +84,14 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+         The only reliable place I would trust with my offroad bike. Maurius is a great guy and knows his stuff. I would recommend him to anyone.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava04} alt="avatar 4" className="w-25 h-25 rounded-2" />
+          <img src={ava01} alt="avatar 4" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Bhekumuzi Mthethwa</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>

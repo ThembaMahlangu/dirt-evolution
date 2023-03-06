@@ -3,42 +3,42 @@ const serviceData = [
     id: 1,
     title: "Local Repairs Collection",
     icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "We collect for free from your home or work in a certain radius so that you can have a peace of mind knowing that is handled by profesionals.",
   },
 
   {
     id: 2,
-    title: "Local Delivery",
+    title: "Race Preps & Servicing",
     icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Let us handle the preparations of your off-road/any motorcycle/ATV/UTV for your next race. We will make sure that your bike is ready to go.",
   },
 
   {
     id: 3,
-    title: "24/7 Emergency Breakdown",
+    title: "Generators",
     icon: "ri-roadster-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "We fix generators and provide the neccesary services to keep your generator running smoothly. We promise to keep your lights on during loadshedding.",
   },
 
   {
     id: 4,
-    title: "Fast & Easy Booking",
+    title: "Parts & Accessories",
     icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "We have a wide range of parts and accessories for your motorcycle/ATV/UTV.                             ",
   },
 
   {
     id: 5,
-    title: "Many Pickup Locations",
+    title: "Diagnostic",
     icon: "ri-map-pin-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "We provide diagnostic services for your all types of ATVs/UTVs and Motorcycles. We will make sure that they always run smooth.",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
+    title: "Thermo Plastic Welding",
     icon: "ri-flight-takeoff-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "We offer plastic welding services for motorcycles, agriculture, mining and domestic needs.",
   },
 ];
 
