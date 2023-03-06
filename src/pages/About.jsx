@@ -5,15 +5,26 @@ import Helmet from "../components/Helmet/Helmet";
 import AboutSection from "../components/UI/AboutSection";
 import { Container, Row, Col } from "reactstrap";
 import BecomeDriverSection from "../components/UI/BecomeDriverSection";
-import OurMembers from "../components/UI/OurMembers";
+import ServicesList from "../components/UI/ServicesList";
 import "../styles/about.css";
 
 const About = () => {
   return (
-    <Helmet title="About">
+    <Helmet title="About Dirt Evolution">
       <CommonSection title="About Us" />
       <AboutSection aboutClass="aboutPage" />
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="section__subtitle">Our Service</h6>
+              <h2 className="section__title">Offer To Customers</h2>
+            </Col>
 
+            <ServicesList />
+          </Row>
+        </Container>
+      </section>
       <section className="about__page-section">
         <Container>
           <Row>
@@ -30,15 +41,7 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  For the past 4 years we have been commited to providing
-                  the best motorbike service and we strive to meet our client's needs.
-                  We have a backround of great repairs and excellent service in our bike sales.
-                </p>
-
-                <p className="section__description">
-                For the past 4 years we have been commited to providing
-                  the best motorbike service and we strive to meet our client's needs.
-                  We have a backround of great repairs and excellent service in our bike sales.
+                  Here is a photo of one of our happy customer's bikes. We aim to please and provide the best service in Middelburg.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -63,10 +66,7 @@ const About = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Experts</h6>
-              <h2 className="section__title">Our Members</h2>
             </Col>
-            <OurMembers />
           </Row>
         </Container>
       </section>

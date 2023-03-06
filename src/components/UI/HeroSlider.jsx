@@ -39,7 +39,7 @@ const HeroSlider = () => {
             <h1 className="text-light mb-4">We Aim To Please!</h1>
 
             <button className="btn reserve__btn mt-4">
-            <Link to="/contact">Book For Collection</Link>
+            <Link to="/contact">Book For Race Prep</Link>
             </button>
           </div>
         </Container>
@@ -52,7 +52,7 @@ const HeroSlider = () => {
             <h1 className="text-light mb-4">We Aim To Please!</h1>
 
             <button className="btn reserve__btn mt-4">
-            <Link to="/contact">Book For Collection</Link>
+            <Link to="/contact">Book For Repairs</Link>
             </button>
           </div>
         </Container>

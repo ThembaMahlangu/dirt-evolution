@@ -45,8 +45,8 @@ const carData = [
     price: 25000,
     speed: "0km ODO reading",
     gps: "Condition Brand New",
-    seatType: "On-road",
-    automatic: "Automatic",
+    seatType: "On-road/Off-road",
+    automatic: "Manual",
     description: "An off-road bike that will suit your racing and mountain climbing needs",
   },
 

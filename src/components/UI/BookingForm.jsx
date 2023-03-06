@@ -5,9 +5,9 @@ import { Form, FormGroup } from "reactstrap";
 const BookingForm = () => {
   const submitHandler = (event) => {
     event.preventDefault();
+    // handle form submission logic here
   };
 
-  
   return (
     <Form onSubmit={submitHandler}>
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
@@ -31,6 +31,10 @@ const BookingForm = () => {
           className="textarea"
           placeholder="Do you have anything we should keep in mind?"
         ></textarea>
+      </FormGroup>
+
+      <FormGroup>
+        <input type="submit" value="Reserve" className="btn btn-primary" />
       </FormGroup>
     </Form>
   );

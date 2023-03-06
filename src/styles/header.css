@@ -157,6 +157,7 @@
   cursor: pointer;
 }
 
+
 .nav__active {
   color: #2df926;
 }
@@ -204,3 +205,10 @@
     display: block;
   }
 }
+
+    @media (max-width: 768px) {
+      .logo img {
+        width: 60px;
+        margin-right: 5px;
+      }
+    }

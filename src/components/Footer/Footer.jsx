@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/all-images/logoo.png";
 
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
@@ -41,10 +42,7 @@ const Footer = () => {
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-motorbike-line"></i>
-                  <span>
-                    Dirt <br /> Evolution
-                  </span>
+                  <img src={logo} alt="logo" style={{width: 80}}/>
                 </Link>
               </h1>
             </div>
@@ -94,7 +92,7 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright 2019 to {year} Dirt Evolution. Powered by ReactJS
+                <i class="ri-copyright-line"></i>Copyright 2019 to {year} Dirt Evolution. Powered by EduLinkage
               </p>
             </div>
           </Col>
