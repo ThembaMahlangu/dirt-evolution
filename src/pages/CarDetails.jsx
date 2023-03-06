@@ -5,7 +5,6 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
-import PaymentMethod from "../components/UI/PaymentMethod";
 
 const CarDetails = () => {
   const { slug } = useParams();
@@ -116,7 +115,6 @@ const CarDetails = () => {
 
             <Col lg="5" className="mt-5">
               <div className="payment__info mt-5">
-                <PaymentMethod />
               </div>
             </Col>
           </Row>
