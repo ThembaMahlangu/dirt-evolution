@@ -121,11 +121,11 @@ const Footer = () => {
             </div>
           </Col>
 
-
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright 2019 to {year} Dirt Evolution. Powered by EduLinkage
+                <i class="ri-copyright-line"></i>
+                Copyright 2019 to {year} Dirt Evolution. Powered by <a href="https://wa.me/+27769360246" target="_blank" rel="noopener noreferrer">EduLinkage</a>
               </p>
             </div>
           </Col>
